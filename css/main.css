@@ -21,6 +21,7 @@ body {
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
+  font-family: 'Raleway', sans-serif;
 }
 
 img {
@@ -114,3 +115,51 @@ footer{
   color: white;
   padding-top: 7px;
 }
+
+#box-services-modal{
+  background-color: #F17C72
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#box-services-modal .modal-body{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px;
+}
+
+#box-services-modal .modal-body h5,
+#box-services-modal .modal-body h6, {
+  color: whitesmoke;
+}
+
+#box-services-modal .modal-body h5{
+  font-size: 2em;
+}
+
+#box-services-modal .modal-body h6{
+  font-size: 1em;
+}
+
+.imagen-grande{
+  width: 100%;
+}
+
+.col-4 img{
+  width: 100%;
+}
+
+.parrafo{
+  margin-top: 20px;
+}
+
+#work{
+  overflow: hidden;
+}
+
+
+
